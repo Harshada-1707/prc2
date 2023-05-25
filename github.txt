@@ -1,0 +1,74 @@
+avcoe@avcoe-HP-Pro-3330-MT:~$ sudo apt-get install git
+
+avcoe@avcoe-HP-Pro-3330-MT:~$ cd
+avcoe@avcoe-HP-Pro-3330-MT:~$ cd Harshada_kale
+avcoe@avcoe-HP-Pro-3330-MT:~/Harshada_kale$ git init
+Initialized empty Git repository in /home/avcoe/Harshada_kale/.git/
+avcoe@avcoe-HP-Pro-3330-MT:~/Harshada_kale$ git status
+avcoe@avcoe-HP-Pro-3330-MT:~/Harshada_kale$ git add .
+avcoe@avcoe-HP-Pro-3330-MT:~/Harshada_kale$ git status
+
+avcoe@avcoe-HP-Pro-3330-MT:~/Harshada_kale$ git commit -m "first commit"
+
+avcoe@avcoe-HP-Pro-3330-MT:~/Harshada_kale$ git config --global user.email "harshadakale65@gmail.com"
+avcoe@avcoe-HP-Pro-3330-MT:~/Harshada_kale$ git commit -m "first commit"
+avcoe@avcoe-HP-Pro-3330-MT:~/Harshada_kale$ git push -u origin master
+Username for 'https://github.com': Harshada-1707
+Password for 'https://Harshada-1707@github.com':
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 159.87 KiB | 10.66 MiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/Harshada-1707/SQL_QURIES.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+avcoe@avcoe-HP-Pro-3330-MT:~/Harshada_kale$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+SQLite
+
+nothing added to commit but untracked files present (use "git add" to track)
+avcoe@avcoe-HP-Pro-3330-MT:~/Harshada_kale$ git add .
+avcoe@avcoe-HP-Pro-3330-MT:~/Harshada_kale$ git status
+
+avcoe@avcoe-HP-Pro-3330-MT:~/Harshada_kale$ git commit -m "first commit"
+[master 253fdfa] first commit
+ 1 file changed, 20 insertions(+)
+ create mode 100644 SQLite
+avcoe@avcoe-HP-Pro-3330-MT:~/Harshada_kale$ git config --global user.email "harshadakale65@gmail.com"
+avcoe@avcoe-HP-Pro-3330-MT:~/Harshada_kale$ git commit -m "first commit"
+avcoe@avcoe-HP-Pro-3330-MT:~/Harshada_kale$ git commit -m "second commit"
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+avcoe@avcoe-HP-Pro-3330-MT:~/Harshada_kale$ git config --global user.email "harshadakale65@gmail.com"
+avcoe@avcoe-HP-Pro-3330-MT:~/Harshada_kale$ git commit -m "second commit"
+avcoe@avcoe-HP-Pro-3330-MT:~/Harshada_kale$ git push -u origin master
+Username for 'https://github.com': Harshada-1707
+Password for 'https://Harshada-1707@github.com':
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/Harshada-1707/SQL_QURIES.git/'
+avcoe@avcoe-HP-Pro-3330-MT:~/Harshada_kale$ git push -u origin master
+Username for 'https://github.com': Harshada-1707
+Password for 'https://Harshada-1707@github.com':
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 559 bytes | 559.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/Harshada-1707/SQL_QURIES.git
+   fd838cd..253fdfa  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+avcoe@avcoe-HP-Pro-3330-MT:~/Harshada_kale$
+
+
+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
